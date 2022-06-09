@@ -96,7 +96,7 @@ async def mannual_gd_upload(client, message):
         gjay = size(os.path.getsize(path_to_file))
         button = []
         button.append(
-            [InlineKeyboardButton(text="☁️ CloudUrl ☁️", url=f"{gauti}")]
+            [InlineKeyboardButton(text="☁️ ᴄʟᴏᴜᴅ ᴜʀʟ ☁️", url=f"{gauti}")]
         )
         if INDEX_LINK:
             indexurl = f"{INDEX_LINK}/{os.path.basename(path_to_file)}"
@@ -105,7 +105,7 @@ async def mannual_gd_upload(client, message):
             button.append(
                 [
                     InlineKeyboardButton(
-                        text="ℹ️ IndexUrl ℹ️", url=f"{tam_link}"
+                        text="✨ ɪɴᴅᴇx ᴜʀʟ ✨", url=f"{tam_link}"
                     )
                 ]
             )
@@ -165,7 +165,7 @@ async def mannual_gd_upload(client, message):
         LOGGER.info(gjay)
         button = []
         button.append(
-            [InlineKeyboardButton(text="☁️ CloudUrl ☁️", url=f"{gautii}")]
+            [InlineKeyboardButton(text="☁️ ᴄʟᴏᴜᴅ ᴜʀʟ ☁️", url=f"{gautii}")]
         )
         if INDEX_LINK:
             indexurl = f"{INDEX_LINK}/{os.path.basename(path_to_file)}/"
@@ -174,7 +174,7 @@ async def mannual_gd_upload(client, message):
             button.append(
                 [
                     InlineKeyboardButton(
-                        text="ℹ️ IndexUrl ℹ️", url=f"{tam_link}"
+                        text="✨ ɪɴᴅᴇx ᴜʀʟ ✨", url=f"{tam_link}"
                     )
                 ]
             )
